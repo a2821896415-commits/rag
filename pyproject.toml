@@ -1,0 +1,71 @@
+[project]
+name = "ai_rag"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.135.1",
+    "flagembedding>=1.3.5",
+    "grandalf>=0.8",
+    "langchain>=1.2.13",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.11",
+    "langgraph>=1.1.3",
+    "loguru>=0.7.3",
+    "mineru-kie-sdk>=0.1.1",
+    "minio>=7.2.20",
+    "modelscope>=1.35.1",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "pymilvus[model]>=2.6.10",
+    "pymilvus-model>=0.3.2",
+    "pymongo>=4.16.0",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.22",
+    "regex>=2026.2.28",
+    "torch>=2.6",
+    "torchaudio>=2.6",
+    "torchvision>=0.21.0",
+    "uvicorn[standard]>=0.42.0",
+    "transformers>=4.57.6,<5.0.0",
+    "datasets>=4.8.4",
+    "openai-agents>=0.4.2",
+    "requests>=2.32.5",
+    "langchain-mcp-adapters>=0.2.2",
+    "dashscope>=1.25.17",
+    "huggingface-hub>=0.36.2,<1.0",
+    "dotenv>=0.9.9",
+    "jupyter>=1.1.1",
+    "ipykernel>=7.3.0",
+    "kokoro>=0.9.4",
+    "soundfile>=0.14.0",
+    "ordered-set>=4.1.0",
+    "pypinyin>=0.55.0",
+    "cn2an>=0.5.24",
+    "jieba>=0.42.1",
+    "librosa>=0.11.0",
+    "av>=18.1.0",
+    "ffmpeg>=1.4",
+    "imageio-ffmpeg>=0.6.0",
+    "markdownify>=1.2.3",
+]
+# 项目下配置环境变量(更推荐)
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+# PyTorch 官方 CUDA 源：PyPI(含清华镜像)在 Windows 上只提供 CPU 版 torch，
+# 需要 GPU 加速(重排/向量化)时必须从这里取 +cu128 构建。
+# 注意：transformers>=4.5x 加载 .bin 权重要求 torch>=2.6，而 cu121 源最高只到 2.5.1，
+# 故必须用 cu128（含 2.6+，且本机驱动 610.74 支持 CUDA 12.8，兼容）。
+# explicit = true 表示仅对下面 [tool.uv.sources] 显式指定的包生效，不影响其余依赖走清华源。
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }

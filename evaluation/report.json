@@ -1,0 +1,1384 @@
+{
+  "overall": {
+    "retrieval": {
+      "samples": 38,
+      "mode_counts": {
+        "exact": 37,
+        "empty_retrieval": 1,
+        "no_golden": 18
+      },
+      "covered_golden_ratio": 0.9211,
+      "per_k": {
+        "1": {
+          "recall": 0.4079,
+          "precision": 0.5,
+          "hit_rate": 0.5,
+          "mrr": 0.5,
+          "ndcg": 0.5,
+          "f1": 0.4386
+        },
+        "3": {
+          "recall": 0.6974,
+          "precision": 0.2982,
+          "hit_rate": 0.7895,
+          "mrr": 0.636,
+          "ndcg": 0.6774,
+          "f1": 0.4079
+        },
+        "5": {
+          "recall": 0.8158,
+          "precision": 0.2105,
+          "hit_rate": 0.8684,
+          "mrr": 0.6544,
+          "ndcg": 0.7049,
+          "f1": 0.3283
+        },
+        "10": {
+          "recall": 0.9737,
+          "precision": 0.1289,
+          "hit_rate": 0.9737,
+          "mrr": 0.6687,
+          "ndcg": 0.7301,
+          "f1": 0.2249
+        }
+      }
+    },
+    "generation": {
+      "samples": 38,
+      "faithfulness": 0.9737,
+      "relevance": 0.9737,
+      "fact_coverage": 0.9737
+    },
+    "comprehension": {
+      "samples": 56,
+      "intent_accuracy": 0.9821,
+      "entity_accuracy": 0.8262,
+      "behavior_accuracy": 0.8214,
+      "comprehension_score": 0.8681
+    },
+    "total_cases": 56
+  },
+  "by_capability": {
+    "comprehension": {
+      "retrieval": {
+        "samples": 10,
+        "mode_counts": {
+          "exact": 9,
+          "empty_retrieval": 1,
+          "no_golden": 4
+        },
+        "covered_golden_ratio": 0.8,
+        "per_k": {
+          "1": {
+            "recall": 0.4,
+            "precision": 0.4,
+            "hit_rate": 0.4,
+            "mrr": 0.4,
+            "ndcg": 0.4,
+            "f1": 0.4
+          },
+          "3": {
+            "recall": 0.9,
+            "precision": 0.3,
+            "hit_rate": 0.9,
+            "mrr": 0.6333,
+            "ndcg": 0.7024,
+            "f1": 0.45
+          },
+          "5": {
+            "recall": 0.9,
+            "precision": 0.18,
+            "hit_rate": 0.9,
+            "mrr": 0.6333,
+            "ndcg": 0.7024,
+            "f1": 0.3
+          },
+          "10": {
+            "recall": 0.9,
+            "precision": 0.09,
+            "hit_rate": 0.9,
+            "mrr": 0.6333,
+            "ndcg": 0.7024,
+            "f1": 0.1636
+          }
+        }
+      },
+      "generation": {
+        "samples": 10,
+        "faithfulness": 0.9,
+        "relevance": 0.9,
+        "fact_coverage": 0.9
+      },
+      "comprehension": {
+        "samples": 14,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.6923,
+        "behavior_accuracy": 0.8571,
+        "comprehension_score": 0.8571
+      },
+      "cases": 14
+    },
+    "retrieval": {
+      "retrieval": {
+        "samples": 14,
+        "mode_counts": {
+          "exact": 14
+        },
+        "covered_golden_ratio": 0.9643,
+        "per_k": {
+          "1": {
+            "recall": 0.5,
+            "precision": 0.5714,
+            "hit_rate": 0.5714,
+            "mrr": 0.5714,
+            "ndcg": 0.5714,
+            "f1": 0.5238
+          },
+          "3": {
+            "recall": 0.5714,
+            "precision": 0.2143,
+            "hit_rate": 0.6429,
+            "mrr": 0.6071,
+            "ndcg": 0.6165,
+            "f1": 0.3071
+          },
+          "5": {
+            "recall": 0.8214,
+            "precision": 0.1857,
+            "hit_rate": 0.8571,
+            "mrr": 0.6571,
+            "ndcg": 0.6969,
+            "f1": 0.2993
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.1143,
+            "hit_rate": 1.0,
+            "mrr": 0.6763,
+            "ndcg": 0.7312,
+            "f1": 0.2034
+          }
+        }
+      },
+      "generation": {
+        "samples": 14,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 14,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.8929,
+        "behavior_accuracy": 0.9286,
+        "comprehension_score": 0.9405
+      },
+      "cases": 14
+    },
+    "generation": {
+      "retrieval": {
+        "samples": 14,
+        "mode_counts": {
+          "exact": 14
+        },
+        "covered_golden_ratio": 0.9643,
+        "per_k": {
+          "1": {
+            "recall": 0.3214,
+            "precision": 0.5,
+            "hit_rate": 0.5,
+            "mrr": 0.5,
+            "ndcg": 0.5,
+            "f1": 0.381
+          },
+          "3": {
+            "recall": 0.6786,
+            "precision": 0.3809,
+            "hit_rate": 0.8571,
+            "mrr": 0.6667,
+            "ndcg": 0.7204,
+            "f1": 0.4786
+          },
+          "5": {
+            "recall": 0.75,
+            "precision": 0.2571,
+            "hit_rate": 0.8571,
+            "mrr": 0.6667,
+            "ndcg": 0.7148,
+            "f1": 0.3775
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.1714,
+            "hit_rate": 1.0,
+            "mrr": 0.6865,
+            "ndcg": 0.7488,
+            "f1": 0.29
+          }
+        }
+      },
+      "generation": {
+        "samples": 14,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 14,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.9524,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 0.9841
+      },
+      "cases": 14
+    },
+    "boundary": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 14
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 14,
+        "intent_accuracy": 0.9286,
+        "entity_accuracy": 0.6667,
+        "behavior_accuracy": 0.5,
+        "comprehension_score": 0.6905
+      },
+      "cases": 14
+    }
+  },
+  "by_type": {
+    "rag": {
+      "retrieval": {
+        "samples": 38,
+        "mode_counts": {
+          "exact": 37,
+          "empty_retrieval": 1
+        },
+        "covered_golden_ratio": 0.9211,
+        "per_k": {
+          "1": {
+            "recall": 0.4079,
+            "precision": 0.5,
+            "hit_rate": 0.5,
+            "mrr": 0.5,
+            "ndcg": 0.5,
+            "f1": 0.4386
+          },
+          "3": {
+            "recall": 0.6974,
+            "precision": 0.2982,
+            "hit_rate": 0.7895,
+            "mrr": 0.636,
+            "ndcg": 0.6774,
+            "f1": 0.4079
+          },
+          "5": {
+            "recall": 0.8158,
+            "precision": 0.2105,
+            "hit_rate": 0.8684,
+            "mrr": 0.6544,
+            "ndcg": 0.7049,
+            "f1": 0.3283
+          },
+          "10": {
+            "recall": 0.9737,
+            "precision": 0.1289,
+            "hit_rate": 0.9737,
+            "mrr": 0.6687,
+            "ndcg": 0.7301,
+            "f1": 0.2249
+          }
+        }
+      },
+      "generation": {
+        "samples": 38,
+        "faithfulness": 0.9737,
+        "relevance": 0.9737,
+        "fact_coverage": 0.9737
+      },
+      "comprehension": {
+        "samples": 38,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.864,
+        "behavior_accuracy": 0.9474,
+        "comprehension_score": 0.9371
+      },
+      "cases": 38
+    },
+    "intent": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 9
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 9,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.6667,
+        "behavior_accuracy": 0.6667,
+        "comprehension_score": 0.7778
+      },
+      "cases": 9
+    },
+    "negative": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 9
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 9,
+        "intent_accuracy": 0.8889,
+        "entity_accuracy": 0.0,
+        "behavior_accuracy": 0.4444,
+        "comprehension_score": 0.6667
+      },
+      "cases": 9
+    }
+  },
+  "by_book": {
+    "三体": {
+      "retrieval": {
+        "samples": 9,
+        "mode_counts": {
+          "exact": 8,
+          "empty_retrieval": 1
+        },
+        "covered_golden_ratio": 0.8889,
+        "per_k": {
+          "1": {
+            "recall": 0.5556,
+            "precision": 0.6667,
+            "hit_rate": 0.6667,
+            "mrr": 0.6667,
+            "ndcg": 0.6667,
+            "f1": 0.5926
+          },
+          "3": {
+            "recall": 0.8333,
+            "precision": 0.3333,
+            "hit_rate": 0.8889,
+            "mrr": 0.7778,
+            "ndcg": 0.8069,
+            "f1": 0.4667
+          },
+          "5": {
+            "recall": 0.8889,
+            "precision": 0.2222,
+            "hit_rate": 0.8889,
+            "mrr": 0.7778,
+            "ndcg": 0.7932,
+            "f1": 0.3492
+          },
+          "10": {
+            "recall": 0.8889,
+            "precision": 0.1111,
+            "hit_rate": 0.8889,
+            "mrr": 0.7778,
+            "ndcg": 0.7932,
+            "f1": 0.1953
+          }
+        }
+      },
+      "generation": {
+        "samples": 9,
+        "faithfulness": 0.8889,
+        "relevance": 0.8889,
+        "fact_coverage": 0.8889
+      },
+      "comprehension": {
+        "samples": 9,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.8889,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 0.963
+      },
+      "cases": 9
+    },
+    "人类简史": {
+      "retrieval": {
+        "samples": 5,
+        "mode_counts": {
+          "exact": 5
+        },
+        "covered_golden_ratio": 0.9,
+        "per_k": {
+          "1": {
+            "recall": 0.3,
+            "precision": 0.4,
+            "hit_rate": 0.4,
+            "mrr": 0.4,
+            "ndcg": 0.4,
+            "f1": 0.3333
+          },
+          "3": {
+            "recall": 0.7,
+            "precision": 0.2666,
+            "hit_rate": 0.8,
+            "mrr": 0.6,
+            "ndcg": 0.6524,
+            "f1": 0.38
+          },
+          "5": {
+            "recall": 0.8,
+            "precision": 0.2,
+            "hit_rate": 0.8,
+            "mrr": 0.6,
+            "ndcg": 0.6278,
+            "f1": 0.3143
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.12,
+            "hit_rate": 1.0,
+            "mrr": 0.6286,
+            "ndcg": 0.6945,
+            "f1": 0.2121
+          }
+        }
+      },
+      "generation": {
+        "samples": 5,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 5,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.9,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 0.9667
+      },
+      "cases": 5
+    },
+    "小王子": {
+      "retrieval": {
+        "samples": 5,
+        "mode_counts": {
+          "exact": 5,
+          "no_golden": 1
+        },
+        "covered_golden_ratio": 0.8,
+        "per_k": {
+          "1": {
+            "recall": 0.4,
+            "precision": 0.4,
+            "hit_rate": 0.4,
+            "mrr": 0.4,
+            "ndcg": 0.4,
+            "f1": 0.4
+          },
+          "3": {
+            "recall": 0.9,
+            "precision": 0.3333,
+            "hit_rate": 1.0,
+            "mrr": 0.6667,
+            "ndcg": 0.7524,
+            "f1": 0.48
+          },
+          "5": {
+            "recall": 1.0,
+            "precision": 0.24,
+            "hit_rate": 1.0,
+            "mrr": 0.6667,
+            "ndcg": 0.7611,
+            "f1": 0.3809
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.12,
+            "hit_rate": 1.0,
+            "mrr": 0.6667,
+            "ndcg": 0.7611,
+            "f1": 0.2121
+          }
+        }
+      },
+      "generation": {
+        "samples": 5,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 6,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.4667,
+        "behavior_accuracy": 0.5,
+        "comprehension_score": 0.6574
+      },
+      "cases": 6
+    },
+    "解忧杂货店": {
+      "retrieval": {
+        "samples": 6,
+        "mode_counts": {
+          "exact": 6
+        },
+        "covered_golden_ratio": 0.8333,
+        "per_k": {
+          "1": {
+            "recall": 0.4167,
+            "precision": 0.5,
+            "hit_rate": 0.5,
+            "mrr": 0.5,
+            "ndcg": 0.5,
+            "f1": 0.4445
+          },
+          "3": {
+            "recall": 0.75,
+            "precision": 0.3333,
+            "hit_rate": 0.8333,
+            "mrr": 0.6389,
+            "ndcg": 0.6885,
+            "f1": 0.45
+          },
+          "5": {
+            "recall": 1.0,
+            "precision": 0.2667,
+            "hit_rate": 1.0,
+            "mrr": 0.6722,
+            "ndcg": 0.7603,
+            "f1": 0.4127
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.1333,
+            "hit_rate": 1.0,
+            "mrr": 0.6722,
+            "ndcg": 0.7603,
+            "f1": 0.2323
+          }
+        }
+      },
+      "generation": {
+        "samples": 6,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 6,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.5555,
+        "behavior_accuracy": 0.6667,
+        "comprehension_score": 0.7407
+      },
+      "cases": 6
+    },
+    "明朝那些事儿": {
+      "retrieval": {
+        "samples": 4,
+        "mode_counts": {
+          "exact": 4
+        },
+        "covered_golden_ratio": 0.875,
+        "per_k": {
+          "1": {
+            "recall": 0.25,
+            "precision": 0.25,
+            "hit_rate": 0.25,
+            "mrr": 0.25,
+            "ndcg": 0.25,
+            "f1": 0.25
+          },
+          "3": {
+            "recall": 0.5,
+            "precision": 0.1666,
+            "hit_rate": 0.5,
+            "mrr": 0.375,
+            "ndcg": 0.4077,
+            "f1": 0.25
+          },
+          "5": {
+            "recall": 0.75,
+            "precision": 0.15,
+            "hit_rate": 0.75,
+            "mrr": 0.4375,
+            "ndcg": 0.5154,
+            "f1": 0.25
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.125,
+            "hit_rate": 1.0,
+            "mrr": 0.4792,
+            "ndcg": 0.6211,
+            "f1": 0.2197
+          }
+        }
+      },
+      "generation": {
+        "samples": 4,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 4,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.875,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 0.9583
+      },
+      "cases": 4
+    },
+    "<未知>": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 11
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 11,
+        "intent_accuracy": 0.9091,
+        "entity_accuracy": 0.6667,
+        "behavior_accuracy": 0.6364,
+        "comprehension_score": 0.7273
+      },
+      "cases": 11
+    },
+    "围城": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 1
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 1,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 1
+    },
+    "蛤蟆先生去看心理医生": {
+      "retrieval": {
+        "samples": 4,
+        "mode_counts": {
+          "exact": 4
+        },
+        "covered_golden_ratio": 0.875,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.375,
+            "precision": 0.1666,
+            "hit_rate": 0.5,
+            "mrr": 0.2083,
+            "ndcg": 0.2827,
+            "f1": 0.225
+          },
+          "5": {
+            "recall": 0.625,
+            "precision": 0.15,
+            "hit_rate": 0.75,
+            "mrr": 0.2708,
+            "ndcg": 0.3904,
+            "f1": 0.2381
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.125,
+            "hit_rate": 1.0,
+            "mrr": 0.2986,
+            "ndcg": 0.4557,
+            "f1": 0.2197
+          }
+        }
+      },
+      "generation": {
+        "samples": 4,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 4,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.75,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 0.9166
+      },
+      "cases": 4
+    },
+    "活着": {
+      "retrieval": {
+        "samples": 3,
+        "mode_counts": {
+          "exact": 3
+        },
+        "covered_golden_ratio": 1.0,
+        "per_k": {
+          "1": {
+            "recall": 0.1667,
+            "precision": 0.3333,
+            "hit_rate": 0.3333,
+            "mrr": 0.3333,
+            "ndcg": 0.3333,
+            "f1": 0.2222
+          },
+          "3": {
+            "recall": 0.6667,
+            "precision": 0.4445,
+            "hit_rate": 0.6667,
+            "mrr": 0.5,
+            "ndcg": 0.5645,
+            "f1": 0.5333
+          },
+          "5": {
+            "recall": 0.6667,
+            "precision": 0.2667,
+            "hit_rate": 0.6667,
+            "mrr": 0.5,
+            "ndcg": 0.5645,
+            "f1": 0.3809
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.1667,
+            "hit_rate": 1.0,
+            "mrr": 0.5417,
+            "ndcg": 0.6696,
+            "f1": 0.2828
+          }
+        }
+      },
+      "generation": {
+        "samples": 3,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 3,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 1.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 3
+    },
+    "追风筝的人": {
+      "retrieval": {
+        "samples": 3,
+        "mode_counts": {
+          "exact": 3
+        },
+        "covered_golden_ratio": 1.0,
+        "per_k": {
+          "1": {
+            "recall": 0.8333,
+            "precision": 1.0,
+            "hit_rate": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0,
+            "f1": 0.8889
+          },
+          "3": {
+            "recall": 0.8333,
+            "precision": 0.3333,
+            "hit_rate": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0,
+            "f1": 0.4667
+          },
+          "5": {
+            "recall": 0.8333,
+            "precision": 0.2,
+            "hit_rate": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0,
+            "f1": 0.3174
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.1333,
+            "hit_rate": 1.0,
+            "mrr": 1.0,
+            "ndcg": 0.9439,
+            "f1": 0.2323
+          }
+        }
+      },
+      "generation": {
+        "samples": 3,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 3,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 1.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 3
+    },
+    "撒哈拉的故事": {
+      "retrieval": {
+        "samples": 2,
+        "mode_counts": {
+          "exact": 2
+        },
+        "covered_golden_ratio": 1.0,
+        "per_k": {
+          "1": {
+            "recall": 0.5,
+            "precision": 0.5,
+            "hit_rate": 0.5,
+            "mrr": 0.5,
+            "ndcg": 0.5,
+            "f1": 0.5
+          },
+          "3": {
+            "recall": 0.75,
+            "precision": 0.3333,
+            "hit_rate": 1.0,
+            "mrr": 0.75,
+            "ndcg": 0.8155,
+            "f1": 0.45
+          },
+          "5": {
+            "recall": 0.75,
+            "precision": 0.2,
+            "hit_rate": 1.0,
+            "mrr": 0.75,
+            "ndcg": 0.8155,
+            "f1": 0.3095
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.15,
+            "hit_rate": 1.0,
+            "mrr": 0.75,
+            "ndcg": 0.8026,
+            "f1": 0.2576
+          }
+        }
+      },
+      "generation": {
+        "samples": 2,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 2,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 1.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 2
+    },
+    "非暴力沟通": {
+      "retrieval": {
+        "samples": 3,
+        "mode_counts": {
+          "exact": 3
+        },
+        "covered_golden_ratio": 0.8333,
+        "per_k": {
+          "1": {
+            "recall": 0.3333,
+            "precision": 0.6667,
+            "hit_rate": 0.6667,
+            "mrr": 0.6667,
+            "ndcg": 0.6667,
+            "f1": 0.4445
+          },
+          "3": {
+            "recall": 0.3333,
+            "precision": 0.2222,
+            "hit_rate": 0.6667,
+            "mrr": 0.6667,
+            "ndcg": 0.6667,
+            "f1": 0.2667
+          },
+          "5": {
+            "recall": 0.5,
+            "precision": 0.2,
+            "hit_rate": 0.6667,
+            "mrr": 0.6667,
+            "ndcg": 0.6257,
+            "f1": 0.2857
+          },
+          "10": {
+            "recall": 1.0,
+            "precision": 0.1667,
+            "hit_rate": 1.0,
+            "mrr": 0.7037,
+            "ndcg": 0.6652,
+            "f1": 0.2828
+          }
+        }
+      },
+      "generation": {
+        "samples": 3,
+        "faithfulness": 1.0,
+        "relevance": 1.0,
+        "fact_coverage": 1.0
+      },
+      "comprehension": {
+        "samples": 3,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 1.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 3
+    },
+    "百年孤独": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 1
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 1,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 1
+    },
+    "鲁迅": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 1
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 1,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.0,
+        "behavior_accuracy": 1.0,
+        "comprehension_score": 1.0
+      },
+      "cases": 1
+    },
+    "球状闪电": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 2
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 2,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.0,
+        "behavior_accuracy": 0.0,
+        "comprehension_score": 0.5
+      },
+      "cases": 2
+    },
+    "白夜行": {
+      "retrieval": {
+        "samples": 0,
+        "mode_counts": {
+          "no_golden": 1
+        },
+        "covered_golden_ratio": 0.0,
+        "per_k": {
+          "1": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "3": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "5": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "recall": 0.0,
+            "precision": 0.0,
+            "hit_rate": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "generation": {
+        "samples": 0,
+        "faithfulness": 0.0,
+        "relevance": 0.0,
+        "fact_coverage": 0.0
+      },
+      "comprehension": {
+        "samples": 1,
+        "intent_accuracy": 1.0,
+        "entity_accuracy": 0.0,
+        "behavior_accuracy": 0.0,
+        "comprehension_score": 0.5
+      },
+      "cases": 1
+    }
+  },
+  "failures": []
+}
